@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var profile = ProfileManager()
+    
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        AppHomeView()
+            .environmentObject(profile)
     }
 }
 

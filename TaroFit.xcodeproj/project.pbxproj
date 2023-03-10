@@ -11,6 +11,17 @@
 		4F9992C929BAA3940074E67B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9992C829BAA3940074E67B /* ContentView.swift */; };
 		4F9992CB29BAA3950074E67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9992CA29BAA3950074E67B /* Assets.xcassets */; };
 		4F9992CE29BAA3950074E67B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9992CD29BAA3950074E67B /* Preview Assets.xcassets */; };
+		4F9992D529BAA3C70074E67B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9992D429BAA3C70074E67B /* HomeView.swift */; };
+		4F9992D929BAA4190074E67B /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9992D829BAA4190074E67B /* ProfileManager.swift */; };
+		4F9992DD29BAA5B50074E67B /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9992DC29BAA5B50074E67B /* GlobalConstants.swift */; };
+		4F9992E029BAA7600074E67B /* HeaderStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9992DF29BAA7600074E67B /* HeaderStruct.swift */; };
+		4F9992E629BAAAD70074E67B /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9992E529BAAAD70074E67B /* DateExtensions.swift */; };
+		4F9992E829BAAC770074E67B /* WeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9992E729BAAC770074E67B /* WeightView.swift */; };
+		4F9992EA29BAAC820074E67B /* CoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9992E929BAAC820074E67B /* CoreView.swift */; };
+		4F9992EC29BAAC8D0074E67B /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9992EB29BAAC8D0074E67B /* CalendarView.swift */; };
+		4F9992EE29BAAD620074E67B /* AppHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9992ED29BAAD620074E67B /* AppHomeView.swift */; };
+		4F9992F029BAAFE40074E67B /* FooterStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9992EF29BAAFE40074E67B /* FooterStruct.swift */; };
+		4F9992F229BABF3C0074E67B /* HomeButtonStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9992F129BABF3C0074E67B /* HomeButtonStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		4F9992C829BAA3940074E67B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4F9992CA29BAA3950074E67B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F9992CD29BAA3950074E67B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F9992D429BAA3C70074E67B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4F9992D829BAA4190074E67B /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		4F9992DC29BAA5B50074E67B /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		4F9992DF29BAA7600074E67B /* HeaderStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderStruct.swift; sourceTree = "<group>"; };
+		4F9992E529BAAAD70074E67B /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		4F9992E729BAAC770074E67B /* WeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightView.swift; sourceTree = "<group>"; };
+		4F9992E929BAAC820074E67B /* CoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreView.swift; sourceTree = "<group>"; };
+		4F9992EB29BAAC8D0074E67B /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		4F9992ED29BAAD620074E67B /* AppHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHomeView.swift; sourceTree = "<group>"; };
+		4F9992EF29BAAFE40074E67B /* FooterStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterStruct.swift; sourceTree = "<group>"; };
+		4F9992F129BABF3C0074E67B /* HomeButtonStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +75,10 @@
 			children = (
 				4F9992C629BAA3940074E67B /* TaroFitApp.swift */,
 				4F9992C829BAA3940074E67B /* ContentView.swift */,
+				4F9992ED29BAAD620074E67B /* AppHomeView.swift */,
+				4F9992E429BAAAC90074E67B /* Extensions */,
+				4F9992D729BAA40A0074E67B /* Classes */,
+				4F9992D629BAA4030074E67B /* Views */,
 				4F9992CA29BAA3950074E67B /* Assets.xcassets */,
 				4F9992CC29BAA3950074E67B /* Preview Content */,
 			);
@@ -65,6 +91,45 @@
 				4F9992CD29BAA3950074E67B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F9992D629BAA4030074E67B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F9992D429BAA3C70074E67B /* HomeView.swift */,
+				4F9992E729BAAC770074E67B /* WeightView.swift */,
+				4F9992E929BAAC820074E67B /* CoreView.swift */,
+				4F9992EB29BAAC8D0074E67B /* CalendarView.swift */,
+				4F9992DE29BAA7220074E67B /* ViewStructs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F9992D729BAA40A0074E67B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4F9992D829BAA4190074E67B /* ProfileManager.swift */,
+				4F9992DC29BAA5B50074E67B /* GlobalConstants.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4F9992DE29BAA7220074E67B /* ViewStructs */ = {
+			isa = PBXGroup;
+			children = (
+				4F9992DF29BAA7600074E67B /* HeaderStruct.swift */,
+				4F9992EF29BAAFE40074E67B /* FooterStruct.swift */,
+				4F9992F129BABF3C0074E67B /* HomeButtonStruct.swift */,
+			);
+			path = ViewStructs;
+			sourceTree = "<group>";
+		};
+		4F9992E429BAAAC90074E67B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4F9992E529BAAAD70074E67B /* DateExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9992EC29BAAC8D0074E67B /* CalendarView.swift in Sources */,
+				4F9992F029BAAFE40074E67B /* FooterStruct.swift in Sources */,
+				4F9992E629BAAAD70074E67B /* DateExtensions.swift in Sources */,
+				4F9992EA29BAAC820074E67B /* CoreView.swift in Sources */,
+				4F9992D529BAA3C70074E67B /* HomeView.swift in Sources */,
+				4F9992EE29BAAD620074E67B /* AppHomeView.swift in Sources */,
+				4F9992F229BABF3C0074E67B /* HomeButtonStruct.swift in Sources */,
+				4F9992E029BAA7600074E67B /* HeaderStruct.swift in Sources */,
 				4F9992C929BAA3940074E67B /* ContentView.swift in Sources */,
+				4F9992DD29BAA5B50074E67B /* GlobalConstants.swift in Sources */,
 				4F9992C729BAA3940074E67B /* TaroFitApp.swift in Sources */,
+				4F9992E829BAAC770074E67B /* WeightView.swift in Sources */,
+				4F9992D929BAA4190074E67B /* ProfileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
