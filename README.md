@@ -10,8 +10,6 @@ Currently, most of this repo is front-end focused. Features that are added/imple
 
 # Changelog
 July 19, 2023: Created entire front-end for main Dashboard view and set up Footer for entire app.
-![Simulator Screenshot - iPhone 14 Pro - 2023-07-19 at 01 19 34](https://github.com/rohankumar2025/TaroFit/assets/91754197/1d86c4ad-98ce-4483-96d7-6714a2562b25)
-
 
 # TaroFit (original)
 ![Simulator Screenshot - iPhone 14 Pro - 2023-07-19 at 01 09 17](https://github.com/rohankumar2025/TaroFit/assets/91754197/8ad970ba-617b-4810-852d-a8926fef02ea)
