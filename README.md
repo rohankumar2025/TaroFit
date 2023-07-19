@@ -9,7 +9,8 @@ The version of TaroFit in this respository is not the same version as the TaroFi
 Currently, most of this repo is front-end focused. Features that are added/implemented will be shown in the Changelog below.
 
 # Changelog
-July 19, 2023: Created entire front-end for main Dashboard view and set up Footer for entire app.
+July 18, 2023: Created entire front-end for main Dashboard view and set up Footer for entire app.
+July 19, 2023: Began creating front-end for Charts/Nutrition view and set up json with GPT responses for exercise form of > 350 unique exercises.
 
 # TaroFit (original)
 ![Simulator Screenshot - iPhone 14 Pro - 2023-07-19 at 01 09 17](https://github.com/rohankumar2025/TaroFit/assets/91754197/8ad970ba-617b-4810-852d-a8926fef02ea)
