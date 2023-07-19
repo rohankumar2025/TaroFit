@@ -10,6 +10,7 @@ Currently, most of this repo is front-end focused. Features that are added/imple
 
 # Changelog
 July 18, 2023: Created entire front-end for main Dashboard view and set up Footer for entire app.
+
 July 19, 2023: Began creating front-end for Charts/Nutrition view and set up json with GPT responses for exercise form of > 350 unique exercises.
 
 # TaroFit (original)
