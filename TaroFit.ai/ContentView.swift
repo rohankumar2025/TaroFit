@@ -8,22 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var tab: String = "Dashboard"
+    @State private var tab: Tab
+    
+    init(tab: Tab = .dashboard) {
+        self.tab = tab
+    }
     
     var body: some View {
         
         ZStack {
             TabView(selection: $tab) {
                 HomeView()
-                    .tag("Dashboard")
+                    .tag(Tab.dashboard)
+                NutritionView()
+                    .tag(Tab.nutrition)
                 ToolsView()
-                    .tag("Tools")
+                    .tag(Tab.tools)
             }
             
             VStack {
                 Spacer()
                 
-                FooterView(tab: $tab)
+                FooterView(selectedTab: $tab)
             }
         }
     }

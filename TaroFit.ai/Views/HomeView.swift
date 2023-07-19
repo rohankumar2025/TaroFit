@@ -15,7 +15,7 @@ struct HomeView: View {
     var body: some View {
         
         VStack(spacing: 0) {
-            header
+            Header(title: "Dashboard", dateText: vm.dateText)
                 .padding(.bottom)
             
             ZStack {
@@ -31,24 +31,6 @@ struct HomeView: View {
         }
         
         
-    }
-    
-    private var header: some View {
-        HStack {
-            VStack(alignment: .leading) {
-                Text(vm.dateText)
-                    .font(.system(size: 14, weight: .light, design: .rounded))
-                    .foregroundColor(.gray)
-                
-                Text("Dashboard")
-                    .modifier(HeaderText())
-            }
-            
-            Spacer()
-            
-            ProfilePicView(withRadius: 40)
-        }
-        .padding(.horizontal)
     }
     
     private var nutrition: some View {
@@ -69,7 +51,7 @@ struct HomeView: View {
                 nutritionChartButtons
             }
             .padding()
-            .background(Rectangle().fill(.white))
+            .background(.white)
             
             nutritionChartCircleIndicators
             

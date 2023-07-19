@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FooterView: View {
-    @Binding var tab: String
+    @Binding var selectedTab: Tab
     @State private var searchQuery: String = ""
     
     var body: some View {
@@ -24,13 +24,13 @@ struct FooterView: View {
                 searchBar
                 
                 HStack {
-                    footerButton(usingSystemName: "rectangle.grid.2x2", forLabel: "Dashboard")
-                    footerButton(usingSystemName: "carrot", forLabel: "Nutrition")
+                    footerButton(usingSystemName: "rectangle.grid.2x2", forTab: .dashboard)
+                    footerButton(usingSystemName: "carrot", forTab: .nutrition)
                     
                     plusButton
                     
-                    footerButton(usingSystemName: "list.clipboard", forLabel: "Plan")
-                    footerButton(usingSystemName: "wrench.adjustable", forLabel: "Tools")
+                    footerButton(usingSystemName: "list.clipboard", forTab: .plan)
+                    footerButton(usingSystemName: "wrench.adjustable", forTab: .tools)
                 }
                 .frame(maxWidth: .infinity)
             }
@@ -49,16 +49,16 @@ struct FooterView: View {
         }
     }
     
-    private func footerButton(usingSystemName name: String, forLabel label: String) -> some View {
+    private func footerButton(usingSystemName name: String, forTab tab: Tab) -> some View {
         Button {
-            withAnimation { self.tab = label }
+            withAnimation { self.selectedTab = tab }
         } label: {
             VStack(spacing: 3) {
-                Image(systemName: "\(name)\(self.tab == label ? ".fill" : "")")
+                Image(systemName: "\(name)\(self.selectedTab == tab ? ".fill" : "")")
                     .font(.system(size: 20, weight: .ultraLight))
                 
-                Text(label)
-                    .font(.system(size: 8, weight: self.tab == label ? .regular : .light))
+                Text(tab.name)
+                    .font(.system(size: 8, weight: self.selectedTab == tab ? .regular : .light))
             }
             .foregroundColor(BG_PURPLE)
         }
