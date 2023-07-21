@@ -22,7 +22,7 @@ struct ContentView: View {
                     .tag(Tab.dashboard)
                 NutritionView()
                     .tag(Tab.nutrition)
-                ToolsView()
+                FormAITipsView()
                     .tag(Tab.tools)
             }
             

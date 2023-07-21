@@ -10,21 +10,22 @@ import SwiftUI
 struct Header: View {
     var title: String
     var dateText: String
+    var showProfilePic: Bool = false
     
     var body: some View {
         HStack {
             VStack(alignment: .leading) {
-                Text(dateText)
+                Text(self.dateText)
                     .font(.system(size: 14, weight: .light, design: .rounded))
                     .foregroundColor(.gray)
                 
-                Text(title)
+                Text(self.title)
                     .modifier(HeaderText())
             }
             
             Spacer()
             
-            ProfilePicView(withRadius: 40)
+            ProfilePicView(withRadius: 40).opacity(self.showProfilePic ? 1 : 0)
         }
         .padding(.horizontal)
     }

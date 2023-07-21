@@ -23,6 +23,9 @@
 		4FB5773B2A684B5100117296 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5773A2A684B5100117296 /* Header.swift */; };
 		4FB5773E2A68679C00117296 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5773D2A68679C00117296 /* Tab.swift */; };
 		4FB577412A68A75000117296 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB577402A68A75000117296 /* DateExtensions.swift */; };
+		4FB577432A69198300117296 /* FormAITipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB577422A69198300117296 /* FormAITipsView.swift */; };
+		4FF5DC322A69CC1E007E9F56 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5DC312A69CC1E007E9F56 /* SearchBar.swift */; };
+		4FF5DC342A6A0067007E9F56 /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5DC332A6A0067007E9F56 /* CapsuleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		4FB5773A2A684B5100117296 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		4FB5773D2A68679C00117296 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		4FB577402A68A75000117296 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		4FB577422A69198300117296 /* FormAITipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormAITipsView.swift; sourceTree = "<group>"; };
+		4FF5DC312A69CC1E007E9F56 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		4FF5DC332A6A0067007E9F56 /* CapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				4FB5771D2A670CF900117296 /* HomeView.swift */,
+				4FB577422A69198300117296 /* FormAITipsView.swift */,
 				4FB577362A68488A00117296 /* NutritionView.swift */,
 				4FB577342A67C94600117296 /* ToolsView.swift */,
 				4FB577232A6710D400117296 /* Modifiers */,
@@ -113,6 +120,7 @@
 				4FB5773A2A684B5100117296 /* Header.swift */,
 				4FB577282A67380D00117296 /* BackgroundView.swift */,
 				4FB577322A67570500117296 /* FooterView.swift */,
+				4FF5DC312A69CC1E007E9F56 /* SearchBar.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -123,6 +131,7 @@
 				4FB577242A6710EE00117296 /* HeaderButton.swift */,
 				4FB577262A67122900117296 /* HeaderText.swift */,
 				4FB5772A2A673D4500117296 /* SubHeaderText.swift */,
+				4FF5DC332A6A0067007E9F56 /* CapsuleButton.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -216,8 +225,10 @@
 				4FB5771E2A670CF900117296 /* HomeView.swift in Sources */,
 				4FB577332A67570500117296 /* FooterView.swift in Sources */,
 				4FB577112A670CD600117296 /* ContentView.swift in Sources */,
+				4FF5DC342A6A0067007E9F56 /* CapsuleButton.swift in Sources */,
 				4FB5770F2A670CD600117296 /* TaroFit_aiApp.swift in Sources */,
 				4FB5773B2A684B5100117296 /* Header.swift in Sources */,
+				4FF5DC322A69CC1E007E9F56 /* SearchBar.swift in Sources */,
 				4FB577352A67C94700117296 /* ToolsView.swift in Sources */,
 				4FB577292A67380D00117296 /* BackgroundView.swift in Sources */,
 				4FB577412A68A75000117296 /* DateExtensions.swift in Sources */,
@@ -226,6 +237,7 @@
 				4FB577252A6710EE00117296 /* HeaderButton.swift in Sources */,
 				4FB577372A68488A00117296 /* NutritionView.swift in Sources */,
 				4FB5772B2A673D4500117296 /* SubHeaderText.swift in Sources */,
+				4FB577432A69198300117296 /* FormAITipsView.swift in Sources */,
 				4FB577272A67122900117296 /* HeaderText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
