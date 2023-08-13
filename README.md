@@ -23,7 +23,9 @@ Users also have access to a variety of graphs ranging from 1 week to All Time fo
 
 ![Simulator Screenshot - iPhone 14 Pro - 2023-07-19 at 01 08 43](https://github.com/rohankumar2025/TaroFit/assets/91754197/2dac5c83-fbd3-4818-a378-263d60642f4c)
 ![Simulator Screenshot - iPhone 14 Pro - 2023-07-19 at 01 08 55](https://github.com/rohankumar2025/TaroFit/assets/91754197/690da94f-646d-4e74-803b-399240a5022c)
-Users also have access to virtually infinite core circuit workouts. They can change the difficulty using the slider on the bottom of the screen and can shuffle the exercises used using the shuffle button. For each exercise in the circuit, there is a video demonstration made by yours truly, showing the user how to properly perform the exercise. There is also a live timer with sound effects for feedback for the user. The workout difficulty ranges from Novice which is essentially 30 seconds on 30 seconds off to Expert, which I can not even perform without taking long breaks.
+Users also have access to virtually infinite core circuit workouts. They can change the difficulty using the slider on the bottom of the screen and can shuffle the exercises used using the shuffle button. For each exercise in the circuit, there is a video demonstration, showing the user how to properly perform the exercise. There is also a live timer with sound effects giving live feedback to the user. 
+
+The workout difficulty ranges from Novice which is essentially 30 seconds on 30 seconds off to Expert, which I can not even perform without taking long breaks.
 
 ![Simulator Screenshot - iPhone 14 Pro - 2023-07-19 at 01 09 13](https://github.com/rohankumar2025/TaroFit/assets/91754197/cc085ab9-4dc7-4d49-9f46-f86b38684057)
 Lastly, the user is able to view a calendar showcasing how often they have been logging in to the app and properly using it. They get a purple ribbon next to the date if they logged in that day and performed any task. There is also a golden star given on days in which the user successfully performed all three of the following:
